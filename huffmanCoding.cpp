@@ -146,7 +146,7 @@ void buildHuffman(string text){
     int org = 8*text.length();
     int conv = ceil(res.length()/8);
     double compressionRate = (double)conv/org;
-    cout<<"String is compressed to "<<compressionRate<<"% of the total size."<<endl;
+    cout<<"String is compressed to "<<compressionRate*100<<"% of the total size."<<endl;
 }
 
 ///Huffman coding begins
